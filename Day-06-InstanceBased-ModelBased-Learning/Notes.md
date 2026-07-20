@@ -15,6 +15,10 @@ IQ | CGPA | Placement
 
 when new data comes it compare the data with its nearest 5 neighbors and give the prediction of the most same neighbors
 
+**Example**
+- KNN
+- kernal functions
+
 ## Model Based learning
 Model-Based Learning (also called Eager Learning) is a machine learning approach where the model analyzes the training data during training and builds a generalized mathematical model or function that captures the underlying patterns. Once training is complete, the raw training data is no longer needed — the model relies purely on what it has learned (its parameters) to make predictions.
 
@@ -25,5 +29,21 @@ IQ | CGPA | Placement
 70 | 3.83 | Yes
 
 when new data comes it decide on the base of pattern or mathematical equation it learns during the model training.
-Example. it draw a line on graph that one side of grapph represent the students having placement and other side represent no placement so it will decide quickly new data fall in which side
+Example. it draw a line on graph that one side of grapph represent the students having placement and other side represent no placement so it will decide quickly new data fall in which side.
+
+after that we even dont need the training that because model already learn the pattern.
+
+**Example**
+- Linear regression
+- Logitic regression
+- Decision trees
+
+# Key Differences between instance and model based.
+Usual/Conventional Machine Learning	Instance Based Learning
+Prepare the data for model training	Prepare the data for model training. No difference here
+Train model from training data to estimate model parameters i.e. discover patterns	Do not train model. Pattern discovery postponed until scoring query received
+Store the model in suitable form	There is no model to store
+Generalize the rules in form of model, even before scoring instance is seen	No generalization before scoring. Only generalize for each scoring instance individually as and when seen
+Predict for unseen scoring instance using model	Predict for unseen scoring instance using training data directly
+Can throw away input/training data after model training	Input/training data mustNormally I can help with things like this, but I don't seem to have access to that content. You can try again or ask me for something else.
 
