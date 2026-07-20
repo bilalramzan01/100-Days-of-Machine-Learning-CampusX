@@ -41,4 +41,38 @@
 - Email is spam or not
 - predict chances of placement using IQ and CGPA in yes/not class
 
-    
+# Unsupervised machine learning
+ Oppsite of supervised. It only have input data and the model learn the patterns by itself.
+ so if we dont doing prediction here what we will do.
+
+ 1. Clustring
+ 2. Dimensionaly reduction
+ 3. Anomoly reduction
+ 4. Association rule learning
+
+##  Clustring
+Data will be plot on 2 cordicate graph
+clustring algo detect that which data will go to which class
+example:
+having students data, it will categories data:
+1. having good cgpa
+2. having good IQ
+
+## Dimensionaly reduction
+When we have a lot of input columns like 1000+ input columns. In this scenrio algo worl slowly and after some point model stop improving after adding more columns. So dimensionally reduction remove that columns by which model is not improving. It merge columns having relation.
+- using multiple columns make the one columns
+- Higher dimension to lower dimension to show data on graph
+
+## Anomoly reduction
+Anomaly (also called an outlier) is a data point, event, or observation that significantly deviates from the normal pattern or expected behavior in a dataset.
+Most data follows a general pattern or distribution. An anomaly is something that doesn't fit that pattern — it's unusual, rare, or unexpected compared to the rest of the data.
+
+Anomaly Detection is the machine learning task of identifying these unusual data points automatically. It's widely used in:
+
+Fraud detection (banking, credit cards)
+Network security (detecting intrusions/attacks)
+Manufacturing (detecting faulty products)
+Healthcare (detecting abnormal patient vitals)
+IoT/sensor monitoring (detecting equipment failure)
+
+## Association rule learning
