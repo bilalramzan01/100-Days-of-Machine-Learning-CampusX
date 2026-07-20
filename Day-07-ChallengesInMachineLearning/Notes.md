@@ -36,4 +36,12 @@ in this data we dont predict using the location feature but we can predict using
  - Very simplest model, not good on training data nor on testing data
 
 8. **Software integration**:
+Software integration is difficult in ML mainly because ML systems behave very differently from traditional software. Unlike normal code, which is deterministic and always gives the same output for the same input, ML models are probabilistic and depend heavily on data — meaning failures can come from bad, biased, or drifted data rather than bugs in the code itself. Models are also usually built in one environment (like Python notebooks for experimentation) but need to be deployed in a completely different production environment with real-time speed and reliability requirements, which creates a gap between research code and production-ready code. On top of that, ML systems are harder to version, since you have to track not just the code but also the data, model weights, and configuration together. They also tend to fail silently, slowly degrading in performance instead of crashing outright, which makes issues harder to catch early. And because data changes over time, models often need continuous retraining and monitoring, unlike traditional software that's just patched occasionally. All of this adds up to a much more complex integration process, which is why the field of MLOps emerged specifically to manage these challenges.
 
+9. **Offline learning and deployment:**
+ - Model is not updating regularly
+ - Deployment is costly
+
+10. **Cost involved (Biggest challenges till now)**
+  - Deploment is costly
+  - when you make the model to come to live server, there is huge amount is required.
