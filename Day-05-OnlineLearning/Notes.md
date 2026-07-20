@@ -42,3 +42,21 @@ Out-of-Core Learning is a machine learning technique used to train models on dat
 
 **Tricky to use** ( Its unstable)
 **Risky** (as open to change according to the new data so if the data become wrong then its goining to be giving wrong output)
+
+**How to reduce this risk**
+- to reduce it we have to actively moniter the system. If the wrong inputs or anomolies came we have to stop it.
+- Not just stop the anomlies we have to offline the system for a time and roll it back to the previous version and deploy it again on the online server.
+
+# 7. Batch Vs Online Learning
+
+*Thursday, March 18, 2021 | 4:29 PM*
+
+---
+
+| Offline Learning | Features | Online Learning |
+| :--- | :---: | :--- |
+| Less complex as model is constant | **Complexity** | Dynamic complexity as the model keeps evolving over time |
+| Fewer computations, single time batch-based training | **Computational Power** | Continuous data ingestions result in consequent model refinement computations |
+| Easier to implement | **Use in Production** | Difficult to implement and manage |
+| Image Classification or anything related to Machine Learning - where data patterns remains constant without sudden concept drifts | **Applications** | Used in finance, economics, health where new data patterns are constantly emerging |
+| Industry proven tools. E.g. Sci-kit, TensorFlow, Pytorch, Keras, Spark Mlib | **Tools** | Active research/New project tools: E.g. MOA, SAMOA, scikit-multiflow, streamDM |
