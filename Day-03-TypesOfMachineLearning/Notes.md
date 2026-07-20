@@ -51,15 +51,18 @@
  4. Association rule learning
 
 ##  Clustring
-Data will be plot on 2 cordicate graph
-clustring algo detect that which data will go to which class
+Clustering is an unsupervised machine learning technique used to group a set of data points into clusters, such that data points within the same cluster are more similar to each other than to points in other clusters — without ever being told in advance what the groups should be.
+**Core idea:** There's no "correct answer" given to the algorithm. It looks at the data purely **based on similarity** (usually measured by distance, like Euclidean distance) and figures out the natural groupings on its own.
 example:
 having students data, it will categories data:
 1. having good cgpa
 2. having good IQ
 
 ## Dimensionaly reduction
-When we have a lot of input columns like 1000+ input columns. In this scenrio algo worl slowly and after some point model stop improving after adding more columns. So dimensionally reduction remove that columns by which model is not improving. It merge columns having relation.
+Dimensionality Reduction is an unsupervised machine learning technique used to reduce the number of input features (dimensions) in a dataset, while trying to preserve as much of the important information/structure as possible.
+
+**Core idea:** Real-world datasets often have a huge number of features — sometimes hundreds or thousands (think: an image dataset where every pixel is a feature). Many of these features are redundant, correlated, or add noise rather than useful information. Dimensionality reduction compresses this high-dimensional data into a smaller number of dimensions, making it easier and faster to work with — without losing the essential patterns.
+
 - using multiple columns make the one columns
 - Higher dimension to lower dimension to show data on graph
 
