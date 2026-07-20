@@ -76,3 +76,5 @@ Healthcare (detecting abnormal patient vitals)
 IoT/sensor monitoring (detecting equipment failure)
 
 ## Association rule learning
+Association Rule Learning (also called Association Rule Mining) is an unsupervised machine learning technique used to discover interesting relationships, patterns, or associations between variables in large datasets.
+It finds rules that describe how the presence of one item or event tends to be associated with the presence of another — answering questions like "if a customer buys X, how likely are they to also buy Y?
