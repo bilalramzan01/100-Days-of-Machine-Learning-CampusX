@@ -39,11 +39,14 @@ after that we even dont need the training that because model already learn the p
 - Decision trees
 
 # Key Differences between instance and model based.
-Usual/Conventional Machine Learning	Instance Based Learning
-Prepare the data for model training	Prepare the data for model training. No difference here
-Train model from training data to estimate model parameters i.e. discover patterns	Do not train model. Pattern discovery postponed until scoring query received
-Store the model in suitable form	There is no model to store
-Generalize the rules in form of model, even before scoring instance is seen	No generalization before scoring. Only generalize for each scoring instance individually as and when seen
-Predict for unseen scoring instance using model	Predict for unseen scoring instance using training data directly
-Can throw away input/training data after model training	Input/training data mustNormally I can help with things like this, but I don't seem to have access to that content. You can try again or ask me for something else.
+| Usual/Conventional Machine Learning | Instance Based Learning |
+| :--- | :--- |
+| Prepare the data for model training | Prepare the data for model training. No difference here |
+| Train model from training data to estimate model parameters i.e. discover patterns | Do not train model. Pattern discovery postponed until scoring query received |
+| Store the model in suitable form | There is no model to store |
+| Generalize the rules in form of model, even before scoring instance is seen | No generalization before scoring. Only generalize for each scoring instance individually as and when seen |
+| Predict for unseen scoring instance using model | Predict for unseen scoring instance using training data directly |
+| Can throw away input/training data after model training | Input/training data must be kept since each query uses part or full set of training observations |
+| Requires a known model form | May not have explicit model form |
+| Storing models generally requires less storage | Storing training data generally requires more storage |
 
