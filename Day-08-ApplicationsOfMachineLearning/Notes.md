@@ -1,6 +1,7 @@
 # Application of Machine Learning | Real Life Machine Learning Applications
 
 ## B2B Applications:
+
 1. **Retail sector**
   - Amazon: Biggest year sale, predict the most saled product and make the prediction which predict should be stocked more.
   - to check your buying pattern 

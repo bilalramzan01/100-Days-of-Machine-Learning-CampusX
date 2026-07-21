@@ -43,5 +43,5 @@ Software integration is difficult in ML mainly because ML systems behave very di
  - Deployment is costly
 
 10. **Cost involved (Biggest challenges till now)**
-  - Deploment is costly
+  - Deployment is costly
   - when you make the model to come to live server, there is huge amount is required.

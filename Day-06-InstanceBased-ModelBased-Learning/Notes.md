@@ -1,8 +1,8 @@
 # Types of machine learning on the base of how the machine learning model learns.
 
 Machine learning model learn in two forms
-1. Memorizing ( Ratta system) - Instance based learning
-2. Generalizing (Learning concepts and patterns) - Model based learning
+1. Instance based learning - Memorizing ( Ratta system) 
+2. Model based learning - Generalizing (Learning concepts and patterns)
 
 ## Instance Based learning
 Instance-Based Learning (also called Memory-Based Learning or Lazy Learning) is a machine learning approach where the model doesn't build an explicit general rule or function during training. Instead, it simply memorizes the training data, and when a new prediction is needed, it compares the new instance to the stored training instances and makes a decision based on similarity.

@@ -3,13 +3,13 @@
 
 **Note** In these types we have learn how the ML models Train especially at production.
 
-## What is production
+## What is production Environment
 Its the server where the code is run. Its called production environment.
 
 ## Batch Machine Learning | Offline
 Batch Machine Learning (Offline Learning) is an approach where the model is trained on the entire dataset all at once, rather than learning continuously from new data as it arrives.
 
-**Why Offline** Because we are using whole data so having a big data to train on server will be costly and time taking process. So genrally trained the model on offline on local environemnt the trained will be deploye on server or production environment.
+**Why Offline** Because we are using whole data so having a big data to train on server will be costly and time taking process. So generally trained the model on offline on local environemnt then trained model will be deploye on server or production environment.
 
 Data -> Model -> Trained -> Test -> Deploy on server
 
